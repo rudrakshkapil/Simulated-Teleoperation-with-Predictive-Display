@@ -22,8 +22,9 @@ Unity 3D projects should be opened with the editor version they were created wit
 The required software for ORB-SLAM can be found on its [GitHub page](https://github.com/raulmur/ORB_SLAM2). However, very specific versions of some of these need to be installed to run with CARV.
 
 **Specific versions:**
-1. OpenCV -- 3.2
-2. Eigen -- 3.2.10
+1. Python -- 2.7
+2. OpenCV -- 3.2
+3. Eigen -- 3.2.10
 
 #### ROS
 ROS Melodic is the distro we worked with. Installation instructions are [here](http://wiki.ros.org/melodic/Installation/Ubuntu). 
