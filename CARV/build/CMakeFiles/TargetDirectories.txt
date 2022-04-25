@@ -1,0 +1,11 @@
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/rebuild_cache.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/edit_cache.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/bin_vocabulary.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/mono_euroc.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/rgbd_tum.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/ORB_SLAM2_Pub.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/stereo_kitti.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/mono_mono.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/stereo_euroc.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/mono_tum.dir
+/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/mono_kitti.dir

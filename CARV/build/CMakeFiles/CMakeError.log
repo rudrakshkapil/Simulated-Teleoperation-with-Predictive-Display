@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a047/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a047.dir/build.make CMakeFiles/cmTC_9a047.dir/build
+make[1]: Entering directory '/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a047.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall  -O3 -march=native -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES -D_LINUX -D_REENTRANT -DCGAL_USE_F2C -DCGAL_DISABLE_ROUNDING_MATH_CHECK    -o CMakeFiles/cmTC_9a047.dir/CheckSymbolExists.c.o   -c /home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9a047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a047.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall  -O3 -march=native -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES -D_LINUX -D_REENTRANT -DCGAL_USE_F2C -DCGAL_DISABLE_ROUNDING_MATH_CHECK     -rdynamic CMakeFiles/cmTC_9a047.dir/CheckSymbolExists.c.o  -o cmTC_9a047 
+CMakeFiles/cmTC_9a047.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9a047.dir/build.make:97: recipe for target 'cmTC_9a047' failed
+make[1]: *** [cmTC_9a047] Error 1
+make[1]: Leaving directory '/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a047/fast' failed
+make: *** [cmTC_9a047/fast] Error 2
+
+File /home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_078ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_078ec.dir/build.make CMakeFiles/cmTC_078ec.dir/build
+make[1]: Entering directory '/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_078ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -O3 -march=native -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES -D_LINUX -D_REENTRANT -DCGAL_USE_F2C -DCGAL_DISABLE_ROUNDING_MATH_CHECK -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_078ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_078ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_078ec.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall  -O3 -march=native -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES -D_LINUX -D_REENTRANT -DCGAL_USE_F2C -DCGAL_DISABLE_ROUNDING_MATH_CHECK -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_078ec.dir/CheckFunctionExists.c.o  -o cmTC_078ec -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_078ec.dir/build.make:97: recipe for target 'cmTC_078ec' failed
+make[1]: *** [cmTC_078ec] Error 1
+make[1]: Leaving directory '/home/hipstudents/Desktop/CARV_translation/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_078ec/fast' failed
+make: *** [cmTC_078ec/fast] Error 2
+
+
