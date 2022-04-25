@@ -40,8 +40,8 @@ ROS Melodic is the distro we worked with. Installation instructions are [here](h
 cd /CARV
 chmod +x ./build.sh
 ./build.sh
-
 ```
+
 3. Set ROS_PACKAGE_PATH environment variable (and confirm).
 ```bash
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:<path-to-repo>/CARV/Examples/ROS
