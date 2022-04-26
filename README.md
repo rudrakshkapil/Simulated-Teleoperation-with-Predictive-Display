@@ -25,6 +25,7 @@ The required software for ORB-SLAM can be found on its [GitHub page](https://git
 1. Python -- 2.7
 2. OpenCV -- 3.2
 3. Eigen -- 3.2.10
+4. Pangolin -- 0.5
 
 #### ROS
 ROS Melodic is the distro we worked with. Installation instructions are [here](http://wiki.ros.org/melodic/Installation/Ubuntu). 
@@ -101,5 +102,35 @@ The root directory contains two folders. `/ArmRobot` contains the Unity code and
 
 
 
+## Videos of Expirementation:
 
+1. [This video](https://drive.google.com/file/d/1mlVCcq3b82BE8uxTxw847e1oG5vJmY1V/view?usp=sharing) shows the task being done without any delay.
+
+2. [This video](https://drive.google.com/file/d/16I5P12RbBpRLv29SxtYHSKVedBZR7rUN/view?usp=sharing) shows the task being done in Unity with a delay of 0.5s.
+
+3. [This video](https://drive.google.com/file/d/101Rx9vlIEdy-rvRipd5TAooGIAWB0Dhn/view?usp=sharing) shows the task being done in Unity with a delay of 1s.
+
+4. [This video](https://drive.google.com/file/d/101Rx9vlIEdy-rvRipd5TAooGIAWB0Dhn/view?usp=sharing) shows the task being done in Unity with a delay of 2s.
+
+5. [This video](https://drive.google.com/file/d/18FkY5Nh5HyNLptYB-YKCPR2UsmgjjZGJ/view?usp=sharing) shows the task being done in Unity with a delay of 4s.
+
+6. [This video](https://drive.google.com/file/d/1QmSk124g0YAcTJg73qN5oxOwO3sXbL4t/view?usp=sharing) shows task being accomplished using the original CARV program's reconstruction with a delay of 0.5s
+
+7. [This video](https://drive.google.com/file/d/1m9eqOpGfWC-tVgXG5h-b8BBzt4GqTI-T/view?usp=sharing) shows task being accomplished using the original CARV program's reconstruction with a delay of 1s
+
+8. [This video](https://drive.google.com/file/d/1XGJndLcYG3UmQSm1cSYWDNT37JIWSXXP/view?usp=sharing) shows task being accomplished using the original CARV program's reconstruction with a delay of 2s
+
+9. [This video](https://drive.google.com/file/d/14bvSk60oWeasxWuyyipzRUuTIkSKwcd-/view?usp=sharing) shows task being accomplished using the original CARV program's reconstruction with a delay of 4s
+
+10. [This video](https://drive.google.com/file/d/1r2vHA97VckIIPecvOOhL7WJPRgGyTnfE/view?usp=sharing) shows the task being accomplished using our modified version of CARV's reconstruction, with a delay of 0.5s.
+
+11. [This video](https://drive.google.com/file/d/1zpiGpjrrrOp1OMsY7EjIGK5wKDWNwLm6/view?usp=sharing) shows the task being accomplished using our modified version of CARV's reconstruction, with a delay of 1s.
+
+12. [This video](https://drive.google.com/file/d/1jTwchFgPrBiMLhKl_57Aiarf8ttX7ulp/view?usp=sharing) shows the task being accomplished using our modified version of CARV's reconstruction, with a delay of 2s.
+
+13. [This video](https://drive.google.com/file/d/1WPa8LB64TGGu5Ieii2gnRVhChy6O9g1U/view?usp=sharing) shows the task being accomplished using our modified version of CARV's reconstruction, with a delay of 4s.
+
+14. [This video](https://drive.google.com/file/d/1bcFAC5gGn3de_8nDrTEr_Ln8AJcztKHe/view?usp=sharing) shows the task being done in "Reconstruction Done" mode with a new texture being sent every 0.5s.
+
+15. [This video](https://drive.google.com/file/d/1whqQBS6nnZVk96SRstJNIkiqSl38WZl_/view?usp=sharing) shows the task being done in "Reconstruction Done" mode with a new texture being sent every 1s.
 
