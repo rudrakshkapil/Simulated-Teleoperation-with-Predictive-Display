@@ -5,6 +5,7 @@ Group members:
 - Rudraksh Kapil (rkapil@ualberta.ca)
 - Raghav Madan (rmadan2@ualberta.ca)
 
+The [Google Slides presentation](https://docs.google.com/presentation/d/1025oLjTfwIHIUguD4mCJuKfDGik5khkG7Efx9rrYDEw/edit?usp=sharing) including videos of the code in action and the [final report](report.pdf) for this project are both publicly available. 
 
 
 ## Pre-requisites
